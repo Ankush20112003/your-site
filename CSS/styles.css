@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    /* padding: 20px; */text-align: center;
+    background-color: #e4f9F5;
+    font-family: 'Merriweather',serif;
+}
+p{
+    /* font-family: cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+    color:  crimson  ;
+    font-weight: normal;
+    line-height: 2;
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+h1{
+    /* width: 100%; */
+    margin: 50 auto 0 auto;
+    font-family: 'Sacramento',cursive;
+    color: #66BFBF;
+    font-size: 5.625rem;
+    background-image: ;
+    text-transform: capitalize;
+    /* /* line-height: 2; */
+}
+h2{
+    /* width: 100%;
+    margin: auto; */
+    font-family: 'Montserrat',sans-serif;
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    /* width: fit-content; */
+    /* margin: 10 auto 10 auto; */
+    font-family: 'Montserrat',sans-serif;
+    color: #11999E;}
+
+hr{
+    border: dotted 6px;
+
+ border-color: burlywood ;
+ border-bottom: none;
+    width: 5%;
+    margin: 20px auto 20px auto;
+    
+
+}
+.top-container{
+    background-color: #e4f9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    /* background-color: rgb(120, 147, 124);
+    /* width: 200px;
+    height: 200px; */ 
+}
+
+.bottom-container{
+     background-color: #66BFBF;
+     padding: 50px 0 20px;
+    /* width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    bottom: 20px; */ 
+}
+.pro{
+    text-decoration: underline;
+}
+.first-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.second-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.code-img{
+    border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right: 2em;
+}
+.chilli-img{
+    /* border-radius: 100%; */
+    width: 15%;
+    height: 15%;
+    float: right;
+    margin-left: 2px;
+}
+.black{
+color: black;
+text-decoration: underline;
+}
+.skills-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrate',sans-serif;
+    margin: 10px 20px;
+    text-decoration: u;
+}
+a:hover{
+    color: white;
+}
+/* .ank{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: rgb(0, 0, 255) ;
+    padding: 10px 20px 10px 20px;
+    background-color: red;
+    border-radius: 60px;
+    border: #009dff;
+    /* border-color: #1f628d; */
+    /* border-style: solid;
+    border-width: 8px;
+}
+.ank:hover{
+    background-color: gold;
+} */ 
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    -webkit-box-shadow: 0px 1px 30px #666666;
+    -moz-box-shadow: 0px 1px 30px #666666;
+    box-shadow: 0px 1px 30px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 18px;
+    background: #3498db;
+    padding: 10px 40px 10px 40px;
+    border: solid #1f628d 4px;
+    text-decoration: none;
+    width: auto;
+    margin: 40px auto 40px auto;
+  }
+  
+  .btn:hover {
+    background: #d23cfc;
+    background-image: -webkit-linear-gradient(top, #d23cfc, #7e34d9);
+    background-image: -moz-linear-gradient(top, #d23cfc, #7e34d9);
+    background-image: -ms-linear-gradient(top, #d23cfc, #7e34d9);
+    background-image: -o-linear-gradient(top, #d23cfc, #7e34d9);
+    background-image: linear-gradient(to bottom, #d23cfc, #7e34d9);
+    text-decoration: none;
+  }
+  .am{
+    border: rgb(210, 176, 39); 
+    border: solid; 
+    /* width: 200px; */
+    height: 20px;  
+    behavior:"alternate"; 
+    direction:"flex-flow";
+    background-color: peru;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 20px;
+  }
+.copyright{
+    color: white;
+    font-size: .75rem;
+    padding: 20px 0;
+    font-size: larger;
+}
+.copyright:hover{
+    color: gold;
+}
+#anb:hover{
+color: rgb(65, 109, 177);
+}
